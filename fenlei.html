@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" href="css/style.css">
+ 		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+ 		<link rel="stylesheet" href="css/media-100.css" />
+	</head>
+	<body>
+		<div id="app">
+			 <mt-header fixed title="分类" class="header">
+  		<mt-button v-link="'/'" icon="back" slot="left">返回</mt-button>
+ 	 <mt-button slot="right"> <i class="mintui mintui-search"></i></mt-button>
+		</mt-header>
+		<div class="feilei_div fl mt40">
+			<ul>
+			<li>
+				
+			服装饰品</li>
+			<li>	
+				包包</li>
+			<li>	
+				手工护肤</li>
+			<li>	
+				手工美餐</li>
+			<li>	
+				家具家居</li>
+			<li>	
+				鞋靴</li>
+			<li>	
+				非遗馆</li>
+			<li>	
+				海外馆</li>
+		</ul>
+		</div>
+		<div class="feilei_div2 fr mt40 ">
+			<div class="cust_div feilei_div3">
+			<span class="fl mt10">
+				常用分类
+			</span>
+			<span class="fr mt10 cust_span">
+			热销榜》
+			</span>
+		</div>
+		<div class="fenlei4">
+			<ul>
+				<li>
+					<div class="fenlei_div5">
+					<img src="images/cate_1524.jpg"/>
+					<img src="images/35.png" class="fenlei_img"/>
+					</div>
+					<br />
+					翡翠
+				</li>
+				<li>
+					<div class="fenlei_div5">
+					<img src="images/42.jpg"/>
+					<img src="images/35.png" class="fenlei_img"/>
+					</div>
+					<br />
+					文创
+				</li>
+				<li>
+					<div class="fenlei_div5">
+					<img src="images/43.jpg"/>
+					<img src="images/35.png" class="fenlei_img"/>
+					</div>
+					<br />
+					石器
+				</li>
+				<li>
+					<div class="fenlei_div5">
+					<img src="images/46.jpg"/>
+					<img src="images/35.png" class="fenlei_img"/>
+					</div>
+					<br />
+					杯具
+				</li>
+				<li>
+					<div class="fenlei_div5">
+					<img src="images/48.jpg"/>
+					<img src="images/35.png" class="fenlei_img"/>
+					</div>
+					<br />
+					灯具
+				</li>
+				<li>
+					<div class="fenlei_div5">
+					<img src="images/46.jpg"/>
+					<img src="images/35.png" class="fenlei_img"/>
+					</div>
+					<br />
+					桌
+				</li>
+				<li>
+					<div class="fenlei_div5">
+					<img src="images/47.jpg"/>
+					<img src="images/35.png" class="fenlei_img"/>
+					</div>
+					<br />凳
+				</li>
+				<li>
+					<div class="fenlei_div5">
+					<img src="images/48.jpg"/>
+					<img src="images/35.png" class="fenlei_img"/>
+					</div>
+					<br />
+					家纺
+				</li>
+				<li>
+					<div class="fenlei_div5">
+					<img src="images/cate_1524.jpg"/>
+					<img src="images/35.png" class="fenlei_img"/>
+					</div>
+					<br />
+					翡翠
+				</li>
+				
+			</ul>
+		</div>
+		<div class="cust_div feilei_div3">
+			<span class="mt10">
+				好店推荐
+			</span>
+			
+		</div>
+		<div class="fenlei5">
+			<ul>
+				<li> <img src="images/41.jpg" alt="" /> </li>
+				<li><img src="images/07.jpg" alt="" /></li>
+				<li> <img src="images/12.jpg" alt="" /></li>
+				<li><img src="images/09.jpg"/></li>
+				<li><img src="images/06.jpg"/></li>
+				<li><img src="images/11.jpg"/></li>
+			</ul>
+			</div>
+		</div>
+		</div>
+	</body>
+	<script src="js/vue-2.5.js"></script>
+  <script src="js/index.js"></script>
+  <script>
+    new Vue({
+      el: '#app',
+      methods: {
+        handleClick: function() {
+          this.$toast('Hello world!')
+        }
+      }
+    })
+  </script>
+</html>

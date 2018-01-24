@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" href="css/style.css">
+ 		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+ 		<link rel="stylesheet" href="css/media-100.css" />
+	</head>
+	<body>
+		<div id="app">
+	<mt-swipe :auto="3000">
+  	<mt-swipe-item><img src="images/51.jpg"/></mt-swipe-item>
+  	<mt-swipe-item><img src="images/52.jpg"/></mt-swipe-item>
+  	<mt-swipe-item><img src="images/53.jpg"/></mt-swipe-item>
+	</mt-swipe>
+	<div class="xiangqing_div bobot">
+		<h3>齐季静书木笔3.0签字笔商务高档签字笔定制刻字檀木礼品笔签名笔 </h3>
+		<br />
+		<span class="fl red">￥260.00</span>
+		<span class="fr">50人已购买</span>
+	</div>
+	<div class="xiangqing_div1">
+		商品详情
+	</div>
+	<div class="xiangqing_div2">
+		<img src="images/55.jpg"/>
+		<img src="images/56.jpg"/>
+		<img src="images/57.jpg"/>
+	</div>
+	<div class="xiangqing_footer">
+		<div class="xiangfoote2 fl">
+			<img src="images/26.png"/>
+		</div>
+		<div class="xiangfooter fr">
+			去淘宝购买
+		</div>
+	</div>
+
+</div>
+
+		
+	</body>
+	<script src="js/vue-2.5.js"></script>
+  <script src="js/index.js"></script>
+  <script>
+    new Vue({
+      el: '#app',
+      methods: {
+        handleClick: function() {
+          this.$toast('Hello world!')
+        }
+      }
+    })
+  </script>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" href="css/style.css">
+ 		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+ 		<link rel="stylesheet" href="css/media-100.css" />
+	</head>
+	<body>
+		<div id="app">
+			<mt-search
+ 				cancel-text="取消"
+ 				 placeholder="搜索">
+			</mt-search>
+		<div class="seek_div">
+			<span class="fl">
+				搜索记录
+			</span>
+			<span class="fr cust_span">
+			<img src="images/34.png"/>
+			</span>
+		</div>
+		<div class="seek_div1">
+			<span class="fl">
+				<img src="images/33.png"/>
+				捕梦器
+			</span>
+		</div>
+		<div class="seek_div1">
+			<span class="fl">
+				<img src="images/33.png"/>
+				陶瓷
+			</span>
+		</div>
+		<div class="seek_div1">
+			<span class="fl">
+				<img src="images/33.png"/>
+				木器
+			</span>
+		</div>
+		<div class="seek_div1">
+			<span class="fl">
+				<img src="images/33.png"/>
+				手工布
+			</span>
+		</div>
+		<div class="seek_div1">
+			<span class="fl">
+				<img src="images/33.png"/>
+				学习桌
+			</span>
+		</div>
+		<div class="seek_div1 bobot">
+			<span class="fl">
+				<img src="images/33.png"/>
+				窗帘
+			</span>
+		</div>
+		
+		
+		
+		
+		</div>
+
+		</div>
+		
+	</body>
+	<script src="js/vue-2.5.js"></script>
+  <script src="js/index.js"></script>
+  <script>
+    new Vue({
+      el: '#app',
+      methods: {
+        handleClick: function() {
+          this.$toast('Hello world!')
+        }
+      }
+    })
+  </script>
+</html>
