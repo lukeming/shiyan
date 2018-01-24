@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+			<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" href="css/style.css">
+ 		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+ 		<link rel="stylesheet" href="css/media-100.css" />
+	</head>
+	<body>
+		<div id="app">
+			<mt-header fixed title="市集专题 " class="header">
+				
+			</mt-header>
+			<div class="mt40">
+		</div>
+			<mt-navbar>
+  <mt-tab-item id="1">精选专题</mt-tab-item>
+  <mt-tab-item id="2">手艺人推荐</mt-tab-item>
+  <mt-tab-item id="3">众筹</mt-tab-item>
+  <mt-tab-item id="4">每日好物</mt-tab-item>
+  <mt-tab-item id="5">礼物专区</mt-tab-item>
+</mt-navbar>
+
+			<div class="fair_tu2 mt10">
+				<div class="fair_box">
+					<img src="images/11.jpg"/>
+					<h5 class="special_h5">"奇妙梦境"捕梦网，一个爱做梦女孩做的"陪睡神器"</h5>
+				</div>
+			</div>
+			<div class="fair_tu2 mt10">
+				<div class="fair_box">
+					<img src="images/08.jpg"/>
+					<h5 class="special_h5">"奇妙梦境"捕梦网，一个爱做梦女孩做的"陪睡神器"</h5>
+				</div>
+			</div>
+			<div class="fair_tu2 mt10">
+				<div class="fair_box">
+					<img src="images/09.jpg"/>
+					<h5 class="special_h5">"奇妙梦境"捕梦网，一个爱做梦女孩做的"陪睡神器"</h5>
+				</div>
+			</div>
+	
+	
+		</div>
+	</body>
+	<script src="https://unpkg.com/vue@1/dist/vue.js"></script>
+  <script src="https://unpkg.com/mint-ui@1/lib/index.js"></script>
+  <script>
+ 	
+  	new Vue({
+      el: '#app',
+      methods: {
+        handleClick: function() {
+          this.$toast('Hello world!')
+        }
+      }
+ 	
+    })
+  </script>
+</html>

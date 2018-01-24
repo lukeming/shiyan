@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+			<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" href="css/style.css">
+ 		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+ 		<link rel="stylesheet" href="css/media-100.css" />
+	</head>
+	
+	<body>
+	<div id="app">
+   	<mt-header fixed title="市集" class="header">
+  	<mt-button v-link="'/'" icon="back" slot="left">返回</mt-button>
+ 	 <mt-button icon="more" slot="right"></mt-button>
+	</mt-header>
+	<div class="fair_tu1 mt40">
+			<div class="fair_box2">
+				<img src="images/12.jpg"/>
+				<div class="fair_box3">
+					<span class="fair_span fl">￥29.90</span>
+					<div class="fair_box4 fr">
+						<span class="fair_span1 fair_shan">￥120</span>
+						<br />
+						<span class="fair_span1">5人已买</span>
+					</div>
+				</div>
+			</div>
+			<div class="fair_box2">
+			
+				<img src="images/10.jpg"/>
+				<div class="fair_box3">
+					<span class="fair_span fl">￥100.00</span>
+					<div class="fair_box4 fr">
+						<span class="fair_span1 fair_shan">￥38.00</span>
+						<br />
+						<span class="fair_span1">406人已买</span>
+					</div>
+				</div>
+			</div>
+	</div>
+	
+	
+	<div class="fair_tu1">
+			<div class="fair_box2">
+				<img src="images/12.jpg"/>
+				<div class="fair_box3">
+					<span class="fair_span fl">￥29.90</span>
+					<div class="fair_box4 fr">
+						<span class="fair_span1 fair_shan">￥120</span>
+						<br />
+						<span class="fair_span1">5人已买</span>
+					</div>
+				</div>
+			</div>
+			<div class="fair_box2">
+			
+				<img src="images/10.jpg"/>
+				<div class="fair_box3">
+					<span class="fair_span fl">￥100.00</span>
+					<div class="fair_box4 fr">
+						<span class="fair_span1 fair_shan">￥38.00</span>
+						<br />
+						<span class="fair_span1">406人已买</span>
+					</div>
+				</div>
+			</div>
+	</div>
+	
+	<div class="fair_tu1">
+			<div class="fair_box2">
+				<img src="images/12.jpg"/>
+				<div class="fair_box3">
+					<span class="fair_span fl">￥29.90</span>
+					<div class="fair_box4 fr">
+						<span class="fair_span1 fair_shan">￥120</span>
+						<br />
+						<span class="fair_span1">5人已买</span>
+					</div>
+				</div>
+			</div>
+			<div class="fair_box2">
+			
+				<img src="images/10.jpg"/>
+				<div class="fair_box3">
+					<span class="fair_span fl">￥100.00</span>
+					<div class="fair_box4 fr">
+						<span class="fair_span1 fair_shan">￥38.00</span>
+						<br />
+						<span class="fair_span1">406人已买</span>
+					</div>
+				</div>
+			</div>
+			
+
+	</div>
+	</body>
+	<script src="js/vue-2.5.js"></script>
+  <script src="js/index.js"></script>
+  <script>
+    new Vue({
+      el: '#app',
+      methods: {
+        handleClick: function() {
+          this.$toast('Hello world!')
+        }
+      }
+    })
+  </script>
+</html>

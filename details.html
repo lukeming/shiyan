@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+			<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" href="css/style.css">
+ 		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+ 		<link rel="stylesheet" href="css/media-100.css" />
+	</head>
+	<body>
+		<div id="app">
+			<mt-header fixed title="专题详情 " class="header">
+			</mt-header>
+			<div class="details_div">
+				<img src="images/20.jpg"/>
+			</div>
+			<div class="details_div1">
+				
+			
+			<h3>众筹|5位艺人为你定制情人节礼物</h3>
+			<div class="details_div2 mt40">
+				<p>情人节礼物没有新意怎么行？</p><br />
+				<p>手工客特邀5位手艺人</p><br />
+				<p>为你定制独一无二的情人节礼物</p><br />
+				<p>用指尖技艺传递最动人的情愫</p>
+			</div>
+			<div class="details_div3">
+			<img src="images/22.png"/>
+			</div>
+			<div class="details_div3">
+				<img src="images/24.png"/>
+			</div>
+		</div>
+		</div>
+	</body>
+	<script src="js/vue-2.5.js"></script>
+  <script src="js/index.js"></script>
+  <script>
+    new Vue({
+      el: '#app',
+      methods: {
+        handleClick: function() {
+          this.$toast('Hello world!')
+        }
+      }
+    })
+  </script>
+</html>

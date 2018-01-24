@@ -1,0 +1,163 @@
+body,dd,dl,fieldset,form,h1,h2,h3,h4,h5,h6,input,legend,ol,p,select,td,textarea,th,ul, div{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;}
+.fl{float: left;}
+.fr{float: right;}
+a{text-decoration: none;}
+li{list-style: none;
+}
+img{
+	border-style:none ;
+}
+
+body{
+	font-size: 16px
+}
+.mt10{
+	margin-top: 10px;
+}
+.mt40{
+	margin-top: 40px;
+}
+	
+.header{
+	border-bottom: 1px solid #ccc;
+	background-color: #fff !important;
+	color: #000000;
+}
+.fair_nav{
+	width: 100%;
+	height: 3rem;
+	
+}
+.fair_nav ul li{
+	width: 25%;
+	height:1rem;
+	text-align: center;
+	float: left;
+	padding-top: 0.8rem;
+}
+.fair_tu{
+	width: 100%;
+	display: flex;
+}
+.tu_box{
+	flex: 1;
+}
+.tu_box img{
+	width: 100%;
+}
+.fair_nav1{
+	width: 100%;
+	height: 0.8rem;
+	text-align: center;
+	line-height: 0.8rem;
+}
+.fair_tu1{
+	display: flex;
+}
+.fair_box{
+	flex: 1;
+	text-align: center;
+	margin: 0px 5px;
+}
+.fair_box img{
+	width: 100%;
+}
+.fair_span{
+	color: #FF0000;
+}
+.fair_nav1 i{
+	padding-left: 10px;
+}
+.fair_tu2{
+	display: flex;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	padding: 0.1rem ;
+	margin-bottom: 0.2rem;
+}
+.fair_tu2 .fair_box img{
+	height: 3rem;
+}
+.fair_box2{
+	flex: 1;
+	border:1px solid #ccc;
+	padding: 0.1rem;
+	margin: 0 0.1rem;
+	margin-top: 0.1rem;
+}
+.fair_box2 img{
+	width: 100%;
+	
+}
+.fair_box3{
+	border-top: 1px solid #ccc;
+	width: 100%;
+	padding: 0.2rem 0;
+}
+.fair_box4{
+	margin-top: -0.1rem;
+}
+.fair_span1{
+	font-size: 12px;
+	color: #ccc;
+}
+.fair_shan{
+	text-decoration: line-through;
+}
+
+.cust_div{
+	width: 100%;
+	height: 0.4rem;
+	padding:0 0.2rem;
+	background-color: #E6E6E6;
+	line-height: 0.4rem;
+	
+}
+.cust_span{
+	color: red;
+}
+.cust_div2{
+	width: 100%;
+	height: 1.7rem;
+	padding: 0.2rem;
+	border-bottom: 1px solid #ccc;
+}
+.cust_div3{
+	width: 12%;
+	height: 100%;
+}
+.cust_div3 img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.cust_div4{
+	padding-left: 0.3rem;
+	width: 87%;
+}
+.special_h5{
+	height: 0.5rem;
+	line-height: 0.5rem;
+}
+.details_div{
+	width: 100%;
+}
+.details_div img{
+	width: 100%;
+}
+.details_div1{
+	padding: 0 0.3rem;
+}
+.details_div2{
+	text-align: center;
+}
+.details_div3{
+	width: 100%;
+	
+}
+.details_div3 img{
+	width: 100%;
+}

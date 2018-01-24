@@ -1,0 +1,65 @@
+body,dd,dl,fieldset,form,h1,h2,h3,h4,h5,h6,input,legend,ol,p,select,td,textarea,th,ul, div{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;}
+.fl{float: left;}
+.fr{float: right;}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+li{list-style: none;
+}
+.nav{
+	margin-top:46px;
+	width: 100%;
+	height: 200px;
+	
+}
+.nav ul{
+	margin: 0 auto;
+}
+.nav ul li{
+	width: 21%;
+	height: 100px;
+	margin-right: 10px;
+	float: left;
+	text-align: center;
+	margin-top: 10px;
+	margin-left: 5px;
+	padding-top: 34px;
+}
+.nav-tu{
+	width: 100%;
+	display: flex;
+}
+.tu_box{
+	flex: 1;
+}
+.tu_box img{
+	width: 100%;
+}
+.navy{
+	width: 100%;
+	
+	text-align: center;
+}
+.xinpin{
+	display: flex;
+}
+.xinpin_box{
+	flex: 1;
+	text-align: center;
+	margin: 0px 5px;
+}
+.xinpin_box img{
+	width: 100%;
+}
+.xinpin_span{
+	color: #FF0000;
+}
+.navy i{
+	padding-left: 10px;
+}
